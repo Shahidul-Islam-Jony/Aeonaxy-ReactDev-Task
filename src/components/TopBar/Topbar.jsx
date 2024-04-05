@@ -12,8 +12,8 @@ const Topbar = () => {
                     <h4 className='text-xl font-medium'>Frequently asked questions</h4>
                 </div>
                 <div className='flex gap-8'>
-                    <NavLink className='flex items-center gap-2 font-medium'>Go to Tilda.cc <LuArrowUpRightSquare className='text-gray-500' /></NavLink>
-                    <NavLink className='flex items-center gap-2 font-medium'>Go to Help Center <LuArrowUpRightSquare className='text-gray-500' /></NavLink>
+                    <NavLink to='/go/tilda' className='flex items-center gap-2 font-medium'>Go to Tilda.cc <LuArrowUpRightSquare className='text-gray-500' /></NavLink>
+                    <NavLink to='/go/help' className='flex items-center gap-2 font-medium'>Go to Help Center <LuArrowUpRightSquare className='text-gray-500' /></NavLink>
                     <select name="language" className='border-2 border-gray-500 rounded-sm w-40' id="">
                         <AiOutlineGlobal />
                         <option className='ml-10' value="En">En</option>

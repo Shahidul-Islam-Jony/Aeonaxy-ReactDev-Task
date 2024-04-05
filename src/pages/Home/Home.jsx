@@ -1,6 +1,7 @@
 import SideNav from "../../components/SideNav/SideNav";
 import Topbar from "../../components/TopBar/Topbar";
 import { FiSearch } from "react-icons/fi";
+import Domains from "../Domain/Domains";
 
 const Home = () => {
     return (
@@ -17,7 +18,7 @@ const Home = () => {
                         <SideNav></SideNav>
                     </div>
                     <div className="col-span-9 bg-white mt-5 p-5">
-                        <p>Hello</p>
+                        <Domains></Domains>
                     </div>
                 </div>
             </div>
