@@ -5,7 +5,7 @@ import { AiOutlineGlobal } from "react-icons/ai";
 
 const Topbar = () => {
     return (
-        <div className='w-11/12 mx-auto'>
+        <div className=''>
             <div className='flex justify-between items-center mt-6'>
                 <div className='flex items-center gap-4'>
                     <img src={logo} className='w-14 h-14 border-2 border-black rounded-full' alt="logo" />
