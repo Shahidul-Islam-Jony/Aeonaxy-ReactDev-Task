@@ -2,6 +2,7 @@ import SideNav from "../../components/SideNav/SideNav";
 import Topbar from "../../components/TopBar/Topbar";
 import { FiSearch } from "react-icons/fi";
 import Domains from "../Domain/Domains";
+import Footer from "../../components/Footer/Footer";
 
 const Home = () => {
     return (
@@ -22,6 +23,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            <Footer></Footer>
         </div>
     );
 };
