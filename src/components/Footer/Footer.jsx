@@ -3,7 +3,7 @@ import { FaSquareInstagram,FaSquareYoutube,FaFacebook,FaSquareTwitter } from "re
 
 const Footer = () => {
     return (
-        <div className="bg-gray-400 py-10">
+        <div className="bg-gray-300 py-10">
             <div className="flex justify-center gap-7">
                 <Link to='#'>Tilda.cc</Link>
                 <Link to='#'>Help Center</Link>
