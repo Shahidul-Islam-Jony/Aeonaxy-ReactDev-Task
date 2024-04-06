@@ -24,7 +24,7 @@ const SideNav = () => {
             <NavLink to='/link' className="flex items-center gap-2 hover:bg-gray-400 p-3 rounded-sm text-lg"><MdOutlineLocalGroceryStore /> Online Store</NavLink>
             <NavLink to='/link' className="flex items-center gap-2 hover:bg-gray-400 p-3 rounded-sm text-lg"><CiMenuBurger /> Menu</NavLink>
             <NavLink to='/link' className="flex items-center gap-2 hover:bg-gray-400 p-3 rounded-sm text-lg"><VscGraph /> Site Statistics and Goals</NavLink>
-            <NavLink to='/link' className="flex items-center gap-2 hover:bg-gray-400 p-3 rounded-sm text-lg"><RiFontSize /> Fonts</NavLink>
+            <NavLink to='/link' className="flex items-center gap-2 hover:bg-gray-400 p-3 rounded-sm text-lg"><RiFontSize className="border-2 rounded-full border-black" /> Fonts</NavLink>
             <NavLink to='/link' className="flex items-center gap-2 hover:bg-gray-400 p-3 rounded-sm text-lg"><TbDeviceIpadHorizontalSearch /> SEO</NavLink>
             <NavLink to='/link' className="flex items-center gap-2 hover:bg-gray-400 p-3 rounded-sm text-lg"><PiDeviceMobileThin /> Mobile Version</NavLink>
             <NavLink to='/link' className="flex items-center gap-2 hover:bg-gray-400 p-3 rounded-sm text-lg"><CiCircleQuestion /> General Questions</NavLink>

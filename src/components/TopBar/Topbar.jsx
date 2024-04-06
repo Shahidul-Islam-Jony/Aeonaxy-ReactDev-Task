@@ -14,12 +14,14 @@ const Topbar = () => {
                 <div className='flex gap-8'>
                     <NavLink to='/go/tilda' className='flex items-center gap-2 font-medium'>Go to Tilda.cc <LuArrowUpRightSquare className='text-gray-500' /></NavLink>
                     <NavLink to='/go/help' className='flex items-center gap-2 font-medium'>Go to Help Center <LuArrowUpRightSquare className='text-gray-500' /></NavLink>
-                    <select name="language" className='border-2 border-gray-500 rounded-sm w-40' id="">
-                        <AiOutlineGlobal />
-                        <option className='ml-10' value="En">En</option>
-                        <option className='ml-10' value="Bangla">Bangla</option>
-                        <option className='ml-10' value="hindi">Hindi</option>
-                    </select>
+                    <div className='relative'>
+                        <select name="language" className='border-2 border-gray-500 pl-6 rounded-sm' id="">
+                            <option className='ml-10' value="En">En</option>
+                            <option className='ml-10' value="Bangla">Bangla</option>
+                            <option className='ml-10' value="hindi">Hindi</option>
+                        </select>
+                        <AiOutlineGlobal className='text-2xl absolute top-[2px] pl-1' />
+                    </div>
                 </div>
             </div>
         </div>
