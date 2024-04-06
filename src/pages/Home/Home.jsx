@@ -7,7 +7,7 @@ import { RiMenuUnfoldFill } from "react-icons/ri";
 import { useState } from "react";
 
 const Home = () => {
-    const [isOpen, setIsOpen] = useState(false);    //for mobile view hidding and open side nav Link
+    const [isOpen, setIsOpen] = useState(true);    //for mobile view hidding and open side nav Link
     return (
         <div>
             {/* for top navbar */}
@@ -24,7 +24,7 @@ const Home = () => {
                     <p><RiMenuUnfoldFill className="text-2xl" /></p>
                 </div>
                 <div className="grid grid-cols-12">
-                    <div className={`${isOpen ? 'z-50 col-span-12' : 'hidden'} md:col-span-3`}>
+                    <div className={`col-span-12 md:col-span-3 ${isOpen ?'':'hidden'}`}>
                         {/* Side navbar */}
                         <SideNav></SideNav>
                     </div>
