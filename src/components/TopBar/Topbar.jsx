@@ -5,13 +5,13 @@ import { AiOutlineGlobal } from "react-icons/ai";
 
 const Topbar = () => {
     return (
-        <div className=''>
-            <div className='flex justify-between items-center mt-6'>
+        <div>
+            <div className='flex flex-col md:flex-row justify-between items-center mt-6'>
                 <div className='flex items-center gap-4'>
                     <img src={logo} className='w-14 h-14 border-2 border-black rounded-full' alt="logo" />
                     <h4 className='text-xl font-medium'>Frequently asked questions</h4>
                 </div>
-                <div className='flex gap-8'>
+                <div className='flex flex-col md:flex-row gap-8'>
                     <NavLink to='/go/tilda' className='flex items-center gap-2 font-medium'>Go to Tilda.cc <LuArrowUpRightSquare className='text-gray-500' /></NavLink>
                     <NavLink to='/go/help' className='flex items-center gap-2 font-medium'>Go to Help Center <LuArrowUpRightSquare className='text-gray-500' /></NavLink>
                     <div className='relative'>

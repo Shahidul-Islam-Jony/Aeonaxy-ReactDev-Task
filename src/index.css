@@ -3,7 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 
-
+/* for active Link */
 a.active{
     background: rgba(128, 128, 128, 0.349);
     border-radius: 5px;
